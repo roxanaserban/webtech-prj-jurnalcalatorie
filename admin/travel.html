@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3>Poze din orase europene</h3>
+        
+<style>
+            
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+body{
+    background-color:#FFEBCD;
+}
+        </style>
+    </head>
+     <body>
+         
+         <div id="bg">
+  <img src="images/bg.jpg" alt="">
+</div>
+         
+    <div>
+             <table id="poze" class="table table-bordered table-striped">
+        <tr ng-repeat="poza in poze">
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+         </div>
+       <div>
+           <img src="elv.jpg" height=200 width=300><h6>Elvetia</h6>
+           <img src="elv1.jpg" height=200 width=300><h6>Elvetia</h6>
+        </div> 
+     <div>
+           <img src="zakynthos.jpg" height=200 width=300><h6>Zakynthos</h6>
+           <img src="viena.jpg" height=200 width=300><h6>Viena</h6>
+      </div>
+    </body>
+</html>
+
+    

@@ -1,0 +1,75 @@
+<!Doctype html>
+<head>
+   
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+<script type="text/javascript" src="js/script.js"></script>
+   
+   <style>
+       
+   input[type=text] {
+    width: 100%;
+    padding: 15px 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 5px solid yellow;
+    border-radius: 4px;
+} 
+body{
+ background-color:lightblue;
+}
+    </style>
+</head>
+
+<body></body>
+
+
+</br></br></br></br>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="w3-tangerine"><b>Orase europene care pot fi vizitate</b></h1>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pull-right">
+                <button class="button" data-toggle="modal" data-target="#add_new_record_modal">Adauga oras</button>
+            </div>
+        </div>
+    </div>
+
+<div>
+    <div>
+<form id="record_form">
+                    <input type="hidden" name="id" id="id" />
+                    <div class="form-group">
+                        <label for="denumire">Denumire oras</label>
+                        <input type="text" name="denumire" id="denumire" placeholder="Denumire" class="form-control"/>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="populatie">Populatia orasului</label>
+                        <input type="text" name="populatie" id="populatie" placeholder="Populatia" rows="5" class="form-control"/>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="temperatura">Temperatura medie</label>
+                        <input name="temperatura" type="text" id="temperatura" placeholder="temperatura" class="form-control"/>
+                    </div>
+    
+                </form>
+                
+    </div>            
+       </div>   
+      
+</body>
+</html>
+                
